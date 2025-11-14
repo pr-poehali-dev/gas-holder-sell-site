@@ -39,7 +39,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-lego-light">
+    <div className="min-h-screen bg-white">
       <nav className="bg-white border-b-4 border-lego-dark sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-lego-red">ГАЗГОЛЬДЕР.МСК</h1>
@@ -56,7 +56,7 @@ const Index = () => {
         </div>
       </nav>
 
-      <section className="py-20 px-4 bg-gradient-to-br from-lego-red/10 via-lego-yellow/10 to-lego-blue/10">
+      <section className="py-20 px-4 bg-white">
         <div className="container mx-auto text-center animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-lego-dark">
             Газгольдеры для дома
@@ -77,7 +77,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-16 px-4">
+      <section className="py-16 px-4 bg-white">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {advantages.map((adv, idx) => (
@@ -118,7 +118,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="calculator" className="py-16 px-4 bg-gradient-to-br from-lego-yellow/20 to-lego-red/20">
+      <section id="calculator" className="py-16 px-4 bg-white">
         <div className="container mx-auto max-w-2xl">
           <Card className="lego-block bg-white border-lego-yellow p-8">
             <h2 className="text-3xl font-bold mb-6 text-lego-dark text-center">Калькулятор стоимости</h2>
@@ -181,7 +181,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contacts" className="py-16 px-4 bg-gradient-to-br from-lego-blue/20 to-lego-green/20">
+      <section id="contacts" className="py-16 px-4 bg-white">
         <div className="container mx-auto max-w-2xl">
           <Card className="lego-block bg-white border-lego-green p-8">
             <h2 className="text-3xl font-bold mb-6 text-lego-dark text-center">Оставить заявку</h2>
