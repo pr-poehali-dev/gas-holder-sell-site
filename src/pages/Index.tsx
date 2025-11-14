@@ -49,7 +49,7 @@ const Index = () => {
             <a href="#process" className="hover:text-lego-yellow transition-colors font-semibold">Установка</a>
             <a href="#contacts" className="hover:text-lego-green transition-colors font-semibold">Контакты</a>
           </div>
-          <Button className="lego-btn bg-lego-red border-lego-dark text-white">
+          <Button className="lego-btn bg-lego-blue border-lego-dark text-white">
             <Icon name="Phone" size={16} className="mr-2" />
             Позвонить
           </Button>
@@ -65,7 +65,7 @@ const Index = () => {
             Автономное газоснабжение по Москве и МО под ключ
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Button className="lego-btn bg-lego-red border-lego-dark text-white text-lg px-8 py-6">
+            <Button className="lego-btn bg-lego-blue border-lego-dark text-white text-lg px-8 py-6">
               <Icon name="Calculator" size={20} className="mr-2" />
               Рассчитать стоимость
             </Button>
@@ -170,7 +170,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {steps.map((step, idx) => (
               <Card key={idx} className="lego-block bg-lego-light border-lego-blue p-6 text-center">
-                <div className="w-20 h-20 bg-lego-red text-white rounded-full flex items-center justify-center mx-auto mb-4 text-4xl font-bold">
+                <div className="w-20 h-20 bg-lego-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 text-4xl font-bold">
                   {step.number}
                 </div>
                 <h3 className="text-2xl font-bold mb-2 text-lego-dark">{step.title}</h3>
@@ -202,7 +202,7 @@ const Index = () => {
                 <Label className="text-lg font-semibold mb-2 block">Комментарий</Label>
                 <Textarea placeholder="Расскажите о вашем проекте" className="border-2 border-lego-dark" rows={4} />
               </div>
-              <Button className="lego-btn w-full bg-lego-red border-lego-dark text-white text-lg py-6">
+              <Button className="lego-btn w-full bg-lego-blue border-lego-dark text-white text-lg py-6">
                 <Icon name="Send" size={20} className="mr-2" />
                 Отправить заявку
               </Button>
